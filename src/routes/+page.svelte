@@ -29,7 +29,7 @@ const statusObj: Status = {
 	{@html githubTheme}
 
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Where juice mit apfeln drin lives... his home" />
 </svelte:head>
 <!-- 
 <div class="mt-12 flex items-center justify-center">
