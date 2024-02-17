@@ -47,6 +47,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/bungee-shade": "^5.0.18"
+		"@fontsource/bungee-shade": "^5.0.18",
+		"@vercel/speed-insights": "^1.0.10"
 	}
 }

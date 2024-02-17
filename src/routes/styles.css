@@ -25,3 +25,9 @@ h5,
 h6 {
 	font-family: var(--playful-font);
 }
+
+code {
+	border-radius: 6.9px;
+	box-shadow: -10px 10px rgba(0, 0, 0, 0.15);
+
+}

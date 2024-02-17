@@ -2,10 +2,13 @@
 	import '../app.pcss';
 	import Header from '../lib/components/Header.svelte';
 	import './styles.css';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+	injectSpeedInsights();
 </script>
 
 <div
-	class="app text-stone-800 dark:text-neutral-200 from-fuchsia-300 to-white dark:from-fuchsia-950 dark:to-black bg-gradient-to-t"
+	class="app bg-gradient-to-t from-fuchsia-300 to-white text-stone-800 dark:from-fuchsia-950 dark:to-black dark:text-neutral-200"
 >
 	<Header></Header>
 
