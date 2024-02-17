@@ -5,14 +5,17 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  dayjs:
-    specifier: ^1.11.10
-    version: 1.11.10
+  '@fontsource/bungee-shade':
+    specifier: ^5.0.18
+    version: 5.0.18
 
 devDependencies:
   '@fontsource/fira-mono':
     specifier: ^4.5.10
     version: 4.5.10
+  '@fontsource/press-start-2p':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -49,6 +52,9 @@ devDependencies:
   daisyui:
     specifier: ^4.4.20
     version: 4.7.2(postcss@8.4.35)
+  dayjs:
+    specifier: ^1.11.10
+    version: 1.11.10
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -61,6 +67,9 @@ devDependencies:
   eslint-plugin-unicorn:
     specifier: ^51.0.1
     version: 51.0.1(eslint@8.56.0)
+  highlight.js:
+    specifier: ^11.9.0
+    version: 11.9.0
   mdsvex:
     specifier: ^0.11.0
     version: 0.11.0(svelte@4.2.10)
@@ -85,6 +94,9 @@ devDependencies:
   svelte-check:
     specifier: ^3.6.0
     version: 3.6.3(postcss-load-config@5.0.3)(postcss@8.4.35)(svelte@4.2.10)
+  svelte-highlight:
+    specifier: ^7.6.0
+    version: 7.6.0
   tailwindcss:
     specifier: ^3.3.6
     version: 3.4.1
@@ -384,8 +396,16 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+  /@fontsource/bungee-shade@5.0.18:
+    resolution: {integrity: sha512-UnOPxX1gJlNbrIUg74JV4251tl/rzOCbMAxdmscyEv6g/WccOk29rm3ONPxjtNxNWoWMd8rbvfl+NMFUnizUoQ==}
+    dev: false
+
   /@fontsource/fira-mono@4.5.10:
     resolution: {integrity: sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==}
+    dev: true
+
+  /@fontsource/press-start-2p@5.0.18:
+    resolution: {integrity: sha512-6ILWQdS1+qowlQiJYKhlmoUwAd3cHBnPRaO0QtRsSfCxoLqEqDZ0QpdcpokNBHWn4DYy75ZkVB8Sjk630ZwnUg==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.14:
@@ -1174,7 +1194,7 @@ packages:
 
   /dayjs@1.11.10:
     resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
-    dev: false
+    dev: true
 
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
@@ -1673,6 +1693,11 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
+    dev: true
+
+  /highlight.js@11.9.0:
+    resolution: {integrity: sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==}
+    engines: {node: '>=12.0.0'}
     dev: true
 
   /hosted-git-info@2.8.9:
@@ -2729,6 +2754,12 @@ packages:
       postcss: 8.4.35
       postcss-scss: 4.0.9(postcss@8.4.35)
       svelte: 4.2.10
+    dev: true
+
+  /svelte-highlight@7.6.0:
+    resolution: {integrity: sha512-J9X1d07iMIKZMAqNAhlkjLX/FS+7R2lPrqVul7i+EleVZIOYvBhtx7ES62bc661a70nKNOS05yr9JAvyQPPOIA==}
+    dependencies:
+      highlight.js: 11.9.0
     dev: true
 
   /svelte-hmr@0.15.3(svelte@4.2.10):

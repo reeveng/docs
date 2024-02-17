@@ -19,16 +19,16 @@
 <h1 class="sr-only">Blog</h1>
 
 {#if postLinks.length > 0}
-	<div class="mx-auto max-w-2xl py-12 flex flex-col gap-8">
+	<div class="mx-auto flex max-w-2xl flex-col gap-8 py-12">
 		{#each postLinks as postLink}
-			<a href={`/blog/${postLink.slug}`} class="cursor-pointer relative py-4">
-				<article class="">
+			<a href={`/blog/${postLink.slug}`} class="relative cursor-pointer py-4">
+				<article class="flex flex-col gap-2">
 					<h2
-						class={`font-bold text-base md:text-lg lg:text-xl ${assignColorClassToPosts(postLink.post, oldestDate, newestDate)}`}
+						class={`text-2xl font-bold md:text-3xl lg:text-4xl ${assignColorClassToPosts(postLink.post, oldestDate, newestDate)}`}
 					>
 						{postLink.post.metadata.title}
 					</h2>
-					<p class="text-sm text-stone-600 dark:text-stone-400">
+					<p class="text-sm text-stone-500 dark:text-stone-400">
 						{dayjs(postLink.post.metadata.publishedOnDate).format('DD/MM/YYYY')}
 					</p>
 					<p>{postLink.post.metadata.teaser}</p>
