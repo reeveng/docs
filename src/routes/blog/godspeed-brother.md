@@ -1,7 +1,7 @@
 ---
 title: Losing a loved one
 publishedOnDate: '2024-02-17'
-teaser: My brother recently died...
+teaser: My brother recently died ...
 ---
 
 My brother recently died, I made this site whilst mourning his death.
