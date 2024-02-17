@@ -1,4 +1,4 @@
-<svg
+<!-- <svg
 	width="450pt"
 	height="450pt"
 	version="1.0"
@@ -30,4 +30,4 @@
 		width: 20%;
 		border-radius: 100%;
 	}
-</style>
+</style> -->

@@ -5,6 +5,9 @@
 >
 
 <style>
+	svg {
+		@apply dark:fill-stone-200;
+	}
 	svg:hover {
 		fill: #5865f2;
 	}

@@ -8,7 +8,7 @@
 	import Dribbble from '../lib/images/brands/dribbble.svelte';
 	import Pexels from '../lib/images/brands/pexels.svelte';
 	import OnlyFans from '../lib/images/brands/onlyfans.svelte';
-	import Logo from '../lib/images/logo.svelte';
+	// import Logo from '../lib/images/logo.svelte';
 
 	import Highlight from 'svelte-highlight';
 	import typescript from 'svelte-highlight/languages/typescript';
