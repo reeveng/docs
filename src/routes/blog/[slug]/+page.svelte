@@ -41,8 +41,8 @@
 
 	<form method="POST" class="mt-8">
 		<button type="submit" class="btn relative rounded-full" title="Likes" disabled={!$canLike}>
-			<span aria-hidden="true">❤️ {likes}</span>
-			<span class="sr-only">{likes} people liked this blogpost</span>
+			<span aria-hidden="true">❤️ {likes ?? 0}</span>
+			<span class="sr-only">{likes ?? 0} people liked this blogpost</span>
 		</button>
 	</form>
 </article>
