@@ -13,3 +13,11 @@ export type PostLink = {
     slug: string;
     post: Post;
 }
+
+export type Likes = {
+    amount: number
+}
+
+export type PostInformation = Metadata & {
+    content
+}

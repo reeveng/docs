@@ -1,13 +1,20 @@
 <script lang="ts">
 	import dayjs from 'dayjs';
+	import canLike from '$lib/stores/localstorage.js';
+	import { browser } from '$app/environment';
 
 	export let data;
+	export let form;
 
-	const { title, publishedOnDate, editedOnDate, content: Content } = data;
+	const { amount: likes, title, publishedOnDate, editedOnDate, content: Content } = data;
 
-	/**
-	 * TODO: make a section where people can like a blogpost later on, only like, no dislike, cus fuck people, we dont really care about bad opinions
-	 */
+	const formSuccess = form?.success;
+	if (formSuccess) {
+		canLike.set(false);
+		if (browser) {
+			window.scrollTo(0, document.body.scrollHeight);
+		}
+	}
 </script>
 
 <svelte:head>
@@ -16,7 +23,9 @@
 </svelte:head>
 
 <article class="mx-auto max-w-2xl py-12">
-	<h1 class="py-4 text-lg font-bold text-fuchsia-400 md:text-2xl lg:text-3xl">{title}</h1>
+	<h1 class="py-4 text-lg font-bold text-fuchsia-400 md:text-2xl lg:text-3xl dark:text-fuchsia-300">
+		{title}
+	</h1>
 
 	<p class="mb-8 text-xs text-stone-600 opacity-85 lg:text-sm dark:text-stone-400">
 		{#if editedOnDate && publishedOnDate !== editedOnDate}
@@ -29,4 +38,20 @@
 	<div class="prose prose-base prose-stone lg:prose-lg 2xl:prose-xl dark:prose-invert">
 		<Content />
 	</div>
+
+	<form method="POST" class="mt-8">
+		<button type="submit" class="btn relative rounded-full" title="Likes" disabled={!$canLike}>
+			<span aria-hidden="true">❤️ {likes}</span>
+			<span class="sr-only">{likes} people liked this blogpost</span>
+		</button>
+	</form>
 </article>
+
+<style>
+	/* TODO: add a triangle shape under the button you lazy bum :) */
+	button[title]:hover::after {
+		@apply absolute left-0 right-0 top-0 mt-[-2rem] w-full rounded-full bg-white p-1;
+
+		content: attr(title);
+	}
+</style>

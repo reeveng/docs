@@ -26,8 +26,7 @@ h6 {
 	font-family: var(--playful-font);
 }
 
-code {
+code.hljs {
 	border-radius: 6.9px;
 	box-shadow: -10px 10px rgba(0, 0, 0, 0.15);
-
 }

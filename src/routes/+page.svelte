@@ -36,7 +36,7 @@ const statusObj: Status = {
 	<Logo />
 </div> -->
 
-<h1 class="my-32 flex items-center justify-center text-6xl md:text-8xl">
+<h1 class="my-16 md:my-32 flex items-center justify-center text-6xl md:text-8xl">
 	<abbr class="textThing" title="Juice mit apfeln drin">J MAD</abbr>
 </h1>
 

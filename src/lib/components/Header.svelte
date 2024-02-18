@@ -32,22 +32,22 @@
 		</a> -->
 	</div>
 
-	<nav class="font-mono font-bold fill-stone-200 dark:fill-stone-700">
+	<nav class="fill-slate-800 font-mono font-bold">
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
-		<ul class="px-12 bg-stone-200 dark:bg-stone-700">
-			{#each $links as link}
+		<ul class="bg-slate-800 px-12 dark:bg-slate-800">
+			{#each $links as { isCurrent, name, path }}
 				<li
-					aria-current={link.isCurrent ? 'page' : undefined}
+					aria-current={isCurrent ? 'page' : undefined}
 					class={`transition motion-reduce:transition-none
 					${
-						link.isCurrent
-							? 'text-fuchsia-600 hover:text-fuchsia-400 border-fuchsia-600 hover:border-fuchsia-400 dark:text-fuchsia-400 dark:hover:text-fuchsia-600 dark:border-fuchsia-400 dark:hover:border-fuchsia-600'
-							: 'hover:text-fuchsia-400'
+						isCurrent
+							? 'border-fuchsia-400 text-fuchsia-400 hover:border-fuchsia-400 hover:text-fuchsia-600 dark:border-fuchsia-600'
+							: 'text-fuchsia-100 hover:text-fuchsia-600'
 					}`}
 				>
-					<a href={link.path}>{link.name}</a>
+					<a href={path}>{name}</a>
 				</li>
 			{/each}
 		</ul>
