@@ -50,7 +50,7 @@
 <style>
 	/* TODO: add a triangle shape under the button you lazy bum :) */
 	button[title]:hover::after {
-		@apply absolute left-0 right-0 top-0 mt-[-2rem] w-full rounded-full bg-white p-1 text-slate-800 dark:bg-slate-800 dark:stroke-neutral-200;
+		@apply absolute left-0 right-0 top-0 mt-[-2rem] w-full rounded-full bg-white p-1 text-slate-800 dark:bg-slate-800 dark:text-neutral-200;
 
 		content: attr(title);
 	}
