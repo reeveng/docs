@@ -8,8 +8,6 @@
 	import Dribbble from '../lib/images/brands/dribbble.svelte';
 	import Pexels from '../lib/images/brands/pexels.svelte';
 	import OnlyFans from '../lib/images/brands/onlyfans.svelte';
-	// import Logo from '../lib/images/logo.svelte';
-
 	import Highlight from 'svelte-highlight';
 	import typescript from 'svelte-highlight/languages/typescript';
 	import githubTheme from 'svelte-highlight/styles/github-dark-dimmed';
@@ -28,15 +26,14 @@ const statusObj: Status = {
 <svelte:head>
 	{@html githubTheme}
 
-	<title>Home</title>
-	<meta name="description" content="Where juice mit apfeln drin lives... his home" />
+	<title>JuiceMitApfelnDrin's home</title>
+	<meta
+		name="description"
+		content="Explore the world with international Twitch streamer JuiceMitApfelnDrin and his partner as they embark on epic adventures. Join us for live streams, travel tales, and insights into the exciting world of computer science. Follow along as we journey across countries, tackle coding challenges, and uncover the wonders of technology. Start your adventure today with JuiceMitApfelnDrin!"
+	/>
 </svelte:head>
-<!-- 
-<div class="mt-12 flex items-center justify-center">
-	<Logo />
-</div> -->
 
-<h1 class="my-16 md:my-32 flex items-center justify-center text-6xl md:text-8xl">
+<h1 class="my-16 flex items-center justify-center text-6xl md:my-32 md:text-8xl">
 	<abbr class="textThing" title="Juice mit apfeln drin">J MAD</abbr>
 </h1>
 

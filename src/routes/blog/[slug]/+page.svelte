@@ -1,25 +1,45 @@
 <script lang="ts">
 	import dayjs from 'dayjs';
-	import canLike from '$lib/stores/localstorage.js';
+	import canLike from '$lib/stores/canLike';
 	import { browser } from '$app/environment';
+	import type { PostInformation } from '$lib/types';
 
-	export let data;
+	export let data: PostInformation;
 	export let form;
 
-	const { amount: likes, title, publishedOnDate, editedOnDate, content: Content } = data;
+	const {
+		amount: likes,
+		title,
+		publishedOnDate,
+		editedOnDate,
+		content: Content,
+		description
+	} = data;
 
-	const formSuccess = form?.success;
+	const formSuccess: Boolean = Boolean(form?.success);
+
+	// liked the post
 	if (formSuccess) {
-		canLike.set(false);
+		// update the list of currently liked items by adding the currently liked post to that list
+		if (data.slug) {
+			canLike.set([...$canLike, data.slug]);
+		}
+
+		// scroll back down to the bottom of the page, since the like button is located there
 		if (browser) {
 			window.scrollTo(0, document.body.scrollHeight);
 		}
 	}
+
+	const foundPostInLikedPosts = Boolean($canLike.find((likedItem) => likedItem === data.slug));
+	const canNotLikeThisPost = foundPostInLikedPosts;
+	// possible TODO's: add a share button (button that copied the link to clipboard)
 </script>
 
 <svelte:head>
 	<title>{title} | JuiceMitApfelnDrin's Blog</title>
 	<meta property="og:title" content={title} />
+	<meta name="description" content={description} />
 </svelte:head>
 
 <article class="mx-auto max-w-2xl py-12">
@@ -40,9 +60,14 @@
 	</div>
 
 	<form method="POST" class="mt-8">
-		<button type="submit" class="btn relative rounded-full" title="Likes" disabled={!$canLike}>
-			<span aria-hidden="true">❤️ {likes ?? 0}</span>
-			<span class="sr-only">{likes ?? 0} people liked this blogpost</span>
+		<button
+			type="submit"
+			class="btn relative rounded-full"
+			title="Likes"
+			disabled={canNotLikeThisPost}
+		>
+			<span aria-hidden="true">❤️ {likes}</span>
+			<span class="sr-only">{likes} people liked this blogpost</span>
 		</button>
 	</form>
 </article>
@@ -51,7 +76,6 @@
 	/* TODO: add a triangle shape under the button you lazy bum :) */
 	button[title]:hover::after {
 		@apply absolute left-0 right-0 top-0 mt-[-2rem] w-full rounded-full bg-white p-1 text-slate-800 dark:bg-slate-800 dark:text-neutral-200;
-
 		content: attr(title);
 	}
 </style>

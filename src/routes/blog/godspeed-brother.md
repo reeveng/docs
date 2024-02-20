@@ -3,6 +3,7 @@ id: 1
 title: Losing a loved one
 publishedOnDate: '2024-02-17'
 teaser: My brother recently died ...
+description: Exploring grief and healing through personal loss. Join the journey of navigating emotions and finding solace in music. Reflect on the complexity of mourning and the importance of feeling deeply. A heartfelt tribute to a lost loved one, embracing the human experience of sorrow and hope. 
 ---
 
 My brother recently died, I made this site whilst mourning his death.

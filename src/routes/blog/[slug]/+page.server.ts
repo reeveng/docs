@@ -2,7 +2,7 @@ import { BLOGPOST, getDB } from "$lib/db/mongo";
 import type { Actions } from "./$types";
 
 export const actions = {
-    default: async (event: { params: { slug: any; }; }) => {
+    default: async (event: { params: { slug: string; }; }) => {
         const slugId = event.params.slug
 
         try {
@@ -15,20 +15,26 @@ export const actions = {
             return { success: false }
         }
 
-
-        return { success: true }
+        return { success: true, slug: slugId }
     }
 } satisfies Actions;
 
-export async function load(event: { params: { slug: any; }; }) {
+export async function load(event: { params: { slug: string; }; }) {
     const slugId = event.params.slug
 
-    const currentOponedBlogpost = await getDB().collection(BLOGPOST).findOne(
-        { slug: slugId },
-        { projection: { amount: 1, _id: 0 } }
-    )
+    try {
+        const currentOponedBlogpost = await getDB().collection(BLOGPOST).findOne(
+            { slug: slugId },
+            { projection: { amount: 1, _id: 0 } }
+        )
 
-    return {
-        ...currentOponedBlogpost,
+        return {
+            amount: currentOponedBlogpost?.amount ?? 0,
+        }
+    }
+    catch {
+        return {
+            amount: 0,
+        }
     }
 }

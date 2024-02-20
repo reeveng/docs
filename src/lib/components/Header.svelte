@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { URLS } from '$lib/utils/urls';
 	import { writable } from 'svelte/store';
 
 	const links = writable([
-		{ path: '/', name: 'Home', isCurrent: false },
-		{ path: '/blog', name: 'Blog', isCurrent: false }
+		{ path: URLS.ROOT, name: 'Home', isCurrent: false },
+		{ path: URLS.BLOG, name: 'Blog', isCurrent: false }
 	]);
 
 	// Subscribe to changes in the $page store
@@ -26,13 +27,7 @@
 </script>
 
 <header>
-	<div class="corner">
-		<!-- <a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a> -->
-	</div>
-
-	<nav class="fill-slate-800 font-mono font-bold">
+	<nav class="flex w-full self-center fill-slate-800 font-mono font-bold">
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
@@ -55,12 +50,6 @@
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
 	</nav>
-
-	<div class="corner">
-		<!-- <a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a> -->
-	</div>
 </header>
 
 <style>
@@ -69,27 +58,7 @@
 		justify-content: space-between;
 	}
 
-	/* .corner {
-		width: 3em;
-		height: 3em;
-	} */
-
-	/* .corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	} */
-
-	/* .corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	} */
-
 	nav {
-		display: flex;
 		justify-content: center;
 	}
 

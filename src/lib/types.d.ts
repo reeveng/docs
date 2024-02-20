@@ -3,6 +3,8 @@ export type Metadata = {
     publishedOnDate: string;
     teaser: string;
     editedOnDate?: string
+    description: string
+    slug?: string
 }
 
 export type Post = {
@@ -18,6 +20,6 @@ export type Likes = {
     amount: number
 }
 
-export type PostInformation = Metadata & {
+export type PostInformation = Metadata & Likes & {
     content
 }

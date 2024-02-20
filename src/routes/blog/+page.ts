@@ -1,6 +1,5 @@
 import type { Post, PostLink } from "$lib/types";
 
-
 function generateIsPost<T>(keys: (keyof T)[]): (data: any) => data is T {
     return function isPost(data: any): data is T {
         return keys.every(key => key in data);
