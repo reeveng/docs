@@ -4,6 +4,14 @@
 # # 3. get information from the new .md "files" with another github action
 # # 4. fill in the information in the email service github action and send through gmail servers
 
+# # relevant links:
+# https://github.com/marketplace/actions/send-email
+# https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions
+# https://docs.github.com/en/actions/learn-github-actions
+# https://github.com/aliencube/frontmatter-to-json-actions
+# https://stackoverflow.com/questions/32114202/how-to-connect-other-apps-or-service-to-access-gmail-account
+# https://github.com/marketplace/actions/mongodb-in-github-actions
+
 # name: Notify on New .md File
 
 # on:
