@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { assignColorClassToPosts } from '$lib/utils/assignColorClassToPosts.js';
 	import { findOldestAndNewestPosts } from '$lib/utils/findOldestAndNewestPosts.js';
+	import { generatePath } from '$lib/utils/generatePath';
 	import { URLS } from '$lib/utils/urls.js';
 	import dayjs from 'dayjs';
 
@@ -26,7 +27,12 @@
 {#if postLinks.length > 0}
 	<div class="items-with-lines-in-between mx-auto flex max-w-2xl flex-col gap-8 py-12">
 		{#each postLinks as postLink}
-			<a href={`${URLS.BLOG}/${postLink.slug}`} class="relative cursor-pointer py-4">
+			<a
+				href={generatePath(URLS.BLOG_POST, {
+					slug: postLink.slug
+				})}
+				class="relative cursor-pointer py-4"
+			>
 				<article class="flex flex-col">
 					<h2
 						class={`mb-2 text-2xl font-bold md:text-3xl lg:text-4xl ${assignColorClassToPosts(postLink.post, oldestDate, newestDate)}`}

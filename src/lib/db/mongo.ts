@@ -1,9 +1,10 @@
-import { MONGO_URL } from '$env/static/private';
+import { MONGO_URL, MONGO_DB_NAME } from '$env/static/private';
 import { MongoClient } from 'mongodb';
 
 const client = new MongoClient(MONGO_URL);
 
 export const BLOGPOST = "blogpost"
+export const NOTIFY = "notify"
 
 // connect to the database
 export async function connect(): Promise<void> {
@@ -17,5 +18,5 @@ export async function disconnect(): Promise<void> {
 
 // get the database
 export function getDB() {
-    return client.db("test");
+    return client.db(MONGO_DB_NAME);
 }

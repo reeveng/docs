@@ -3,6 +3,7 @@
 	import canLike from '$lib/stores/canLike';
 	import { browser } from '$app/environment';
 	import type { PostInformation } from '$lib/types';
+	import { URLS } from '$lib/utils/urls.js';
 
 	export let data: PostInformation;
 	export let form;
@@ -33,7 +34,6 @@
 
 	const foundPostInLikedPosts = Boolean($canLike.find((likedItem) => likedItem === data.slug));
 	const canNotLikeThisPost = foundPostInLikedPosts;
-	// possible TODO's: add a share button (button that copied the link to clipboard)
 </script>
 
 <svelte:head>
@@ -71,6 +71,15 @@
 		</button>
 	</form>
 </article>
+
+<footer class="flex justify-center">
+	<p class="mt-8 max-w-lg rounded-full bg-slate-800 px-8 py-4 text-center text-white">
+		Want to get notified when I write another post?
+		<a class="link text-fuchsia-400 hover:text-fuchsia-600" href={URLS.BLOG_STAY_UP_TO_DATE}
+			>Sign-up here</a
+		>
+	</p>
+</footer>
 
 <style>
 	/* TODO: add a triangle shape under the button you lazy bum :) */
