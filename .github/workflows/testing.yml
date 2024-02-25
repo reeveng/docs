@@ -1,25 +1,25 @@
-name: Notify on New .md File
+# # create a github action that:
+# # 1. check if there is new .md file in the blogs folder
+# # 2. fetches all email addresses from mongodb with the mongodb github action
+# # 3. get information from the new .md "files" with another github action
+# # 4. fill in the information in the email service github action and send through gmail servers
 
-on:
-  push:
-    paths:
-      - 'folder/**/*.md'
-    types:
-      - added
+# name: Notify on New .md File
 
-jobs:
-  notify:
-    runs-on: ubuntu-latest
+# on:
+#   push:
+#     paths:
+#       - 'folder/**/*.md'
+#     types:
+#       - added
 
-    steps:            
-      - name: Send email       
-        uses: dawidd6/action-send-mail@v3.11.0
-          with: 
-            server_address: smtp.gmail.com
-            to: obiwan@example.com
+# jobs:
+#   notify:
+#     runs-on: ubuntu-latest
 
-# create a github action that:
-# 1. check if there is new .md file in the blogs folder
-# 2. fetches all email addresses from mongodb with the mongodb github action
-# 3. get information from the new .md "files" with another github action
-# 4. fill in the information in the email service github action and send through gmail servers
+#     steps:            
+#       - name: Send email       
+#         uses: dawidd6/action-send-mail@v3.11.0
+#           with: 
+#             server_address: smtp.gmail.com
+#             to: obiwan@example.com
