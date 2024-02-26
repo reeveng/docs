@@ -18,7 +18,7 @@ export async function load(event: {
     let post;
 
     try {
-        post = await import(`../${params.slug}.md`);
+        post = await import(`../../../lib/blogposts/${params.slug}.md`);
     } catch {
         error(404, {
             message: "Couldn't find a blogpost with this url",

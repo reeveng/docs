@@ -47,13 +47,18 @@
 		{title}
 	</h1>
 
-	<p class="mb-8 text-xs text-stone-600 opacity-85 lg:text-sm dark:text-stone-400">
-		{#if editedOnDate && publishedOnDate !== editedOnDate}
-			Edited on the {dayjs(editedOnDate).format('DD of MMMM YYYY')}
-		{:else}
-			Published on the {dayjs(publishedOnDate).format('DD of MMMM YYYY')}
-		{/if}
-	</p>
+	<div class="mb-8 text-xs text-stone-600 opacity-85 lg:text-sm dark:text-stone-400">
+		<p>
+			{#if publishedOnDate}
+				Published on the {dayjs(publishedOnDate).format('DD of MMMM YYYY')}
+			{/if}
+		</p>
+		<p>
+			{#if editedOnDate && publishedOnDate !== editedOnDate}
+				Edited on the {dayjs(editedOnDate).format('DD of MMMM YYYY')}
+			{/if}
+		</p>
+	</div>
 
 	<div class="prose prose-base prose-stone lg:prose-lg 2xl:prose-xl dark:prose-invert">
 		<Content />

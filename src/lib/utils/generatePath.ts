@@ -16,7 +16,7 @@ export function generatePath(path: string, options: Record<string, string> = {})
         return pathArray.join("/")
     }
 
-    console.log("you used the generatePath function somewhere, where it wasn't called with options, kind of defeating its purpose, you can remove the function call there!")
+    console.error("you used the generatePath function somewhere, where it wasn't called with options, kind of defeating its purpose, you can remove the function call there!")
 
     return path;
 }

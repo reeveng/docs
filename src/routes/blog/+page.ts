@@ -9,8 +9,10 @@ function generateIsPost<T>(keys: (keyof T)[]): (data: any) => data is T {
 const isPost = generateIsPost<Post>(['metadata']);
 
 export const load: () => Promise<{ posts: PostLink[] }> = async () => {
-    let fileTypes = './*.md'
-    const posts = import.meta.glob('./*.md');
+    const fileTypes = '../../lib/blogposts/*.md'
+    const posts = import.meta.glob('../../lib/blogposts/*.md');
+
+
     const postEntries = Object.entries(posts);
 
     const mappedPosts: PostLink[] = (await Promise.all(
