@@ -10,7 +10,7 @@ description: text
 
 Since I was 12-13 years old, I have thought at least once about suicide every day. Which is probably the most constant thing that I've actively/passively been doing. Nothing in my life has been as constant as this weird abstract feeling of not wanting to be alive. Why is it so prevalent?
 
-I have always felt as if I had to supress my feelings, part of it was probably to avoid getting bullied and/or taken advantage of. Maybe I should get more in touch with my emotions again, but how?
+I have always felt as if I had to suppress my feelings, part of it was probably to avoid getting bullied and/or taken advantage of. Maybe I should get more in touch with my emotions again, but how?
 
 A note for **if you don't understand depression**:
 

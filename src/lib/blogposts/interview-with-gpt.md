@@ -15,11 +15,11 @@ From my recollection, my journey with depression began in my early teens, althou
 
 My mother instilled the idea that I would kill someone from the age of 6-7. She probably wanted me to kill my dad. Their breakup wasn't your usual breakup to say the least. They had been fighting for ages in court. My mother always talking negatively about my father, anything good he did was supposedly just to manipulate me. His goal was to fuck with my mind... . So since the age of 6-7 I've always felt unsafe around others, even those close to me. As if they'd betray me at any moment, as if they are just playing mind games. Every interaction I have with anyone, I play back at least 10 times to check if they aren't trying to manipulate me or use me for their own benefit.
 
-She used to be hot at times when she liked what you were doing, then extremely cold, almost voilent when she felt you crossed her or any of her ideas (she has many and vast ideas). And every so often telling your kid that "You will kill someone one day. You are a knight in this dark world, here to protect those around you.". Looking back, I don't think there was ever a genuine interaction between us, neither did she feel the way a mom should?!?
+She used to be hot at times when she liked what you were doing, then extremely cold, almost violent when she felt you crossed her or any of her ideas (she has many and vast ideas). And every so often telling your kid that "You will kill someone one day. You are a knight in this dark world, here to protect those around you.". Looking back, I don't think there was ever a genuine interaction between us, neither did she feel the way a mom should?!?
 
 In 2010, THE VERDICT came, court decided we couldn't live with our mother anymore. She wasn't able to take care of her kids. NOT according to me, but according to the court. This isn't a normal decision, how often does a single father win court cases where the mother has taken care of the kids for their whole life? Something was clearly (and is clearly) wrong with my mother.
 
-Only later I understood that the many visits to the policestations, the psychologists that visited us every so often and the constant fight between my parents (and mostly in my mothers head), weren't normal occurances in someones childhood. Every so often, I still find myself realizing, like oh, that was just my childhood that had this(?!?), its not a part of everyone else's?
+Only later I understood that the many visits to the police-stations, the psychologists that visited us every so often and the constant fight between my parents (and mostly in my mothers head), weren't normal occurrences in someones childhood. Every so often, I still find myself realizing, like oh, that was just my childhood that had this(?!?), its not a part of everyone else's?
 
 I didn't have a chance to be a child, I had to grow up quickly, in order to take care of my lil bro and sis. I HAD to take care of them, I did a better job then my mother ever did.
 
@@ -68,7 +68,7 @@ How it can benefit others? No idea, maybe knowing there are other people sharing
 
 ## What are some of the daily challenges you face due to depression, and how do you navigate them?
 
-Not necessarily due to depression, but talking with people and interacting with them in a positive way requires a constant and concious effort.
+Not necessarily due to depression, but talking with people and interacting with them in a positive way requires a constant and conscious effort.
 
 ## What are your goals for the future in terms of managing your depression and overall well-being?
 
