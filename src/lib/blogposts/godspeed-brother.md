@@ -1,5 +1,4 @@
 ---
-id: 1
 title: Losing a loved one
 publishedOnDate: '2024-02-17'
 teaser: My brother recently died ...

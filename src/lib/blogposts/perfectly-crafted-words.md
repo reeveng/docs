@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Perfectly crafted words
 publishedOnDate: '2023-08-29'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 29/08/2023 Perfectly crafted words -->
 
 Ereyesterday, I heard this song for the first time. I was looking for new music and going through artists their albums, when I landed this gem:
 

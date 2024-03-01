@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Integral
 publishedOnDate: '2023-06-12'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 12/06/2023 Integral -->
 
 Once upon a time, there was a person who carried a heavy burden deep within themselves. It was a burden called depression. At first, it was just a whisper, a subtle feeling of sadness that lingered in their heart. But as time went on, it grew louder, gradually permeating every corner of their existence.
 

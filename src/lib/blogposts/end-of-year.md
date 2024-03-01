@@ -1,12 +1,9 @@
 ---
-id: 0
 title: End of year
 publishedOnDate: '2023-12-30'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 30/12/2023 End of year -->
 
 It's been though lately, at least internally. Marathon left, marathon right, look at me not being able to sleep a night.
 

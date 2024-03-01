@@ -1,13 +1,9 @@
 ---
-id: 0
 title: Interview with GPT
 publishedOnDate: '2023-09-03'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-
-<!-- ## 03/09/2023 Interview with GPT -->
 
 ## Can you share your personal journey with depression, including when you first noticed its symptoms and how it has evolved over time?
 

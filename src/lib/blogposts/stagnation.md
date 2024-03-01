@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Stagnation
 publishedOnDate: '2023-08-03'
-# editedOnDate: '2024-02-17'
-teaser: text
-description: text
+teaser: Breaking Free from the Monotony
+description: Stagnation is like a terminal cancer, trapping us in a cycle of predictability and monotony. Yearning for excitement and growth, we find ourselves suffocating in the same routine, longing to break free and explore new possibilities.
 ---
-<!-- ## 03/08/2023 stagnation -->
 
 Definition:
 

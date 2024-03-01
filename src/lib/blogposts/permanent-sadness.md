@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Permanent sadness
 publishedOnDate: '2023-07-24'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 24/07/2023 Permanent sadness -->
 
 Been a while since I wrote in here (or at least 2 weeks). Its not like anything has changed.
 Neither do I feel fundamentally happier. But a few days ago a sort of calmness returned.

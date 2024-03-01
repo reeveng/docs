@@ -1,12 +1,10 @@
 ---
-id: 0
 title: Why depressed?
 publishedOnDate: '2023-06-15'
 editedOnDate: '2024-02-25'
-teaser: text
-description: text
+teaser: Struggling to find answers...
+description: Delve into a personal journey marked by pain and betrayal. From the torment inflicted by a manipulative mother to the pervasive sense of unease in a homeland tainted by memories, this introspective exploration grapples with the complexities of trust and survival. Amidst the shadows of deception and fear, a plea for authenticity emerges, seeking solace in honesty and genuine connection. Join the conversation as raw emotions unravel, revealing the scars left by a past too painful to fully recount.
 ---
-<!-- ## 15/06/2023 Why depressed? -->
 
 Short answer: idfk, what do you think?
 

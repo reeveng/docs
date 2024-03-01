@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Burning world
 publishedOnDate: '2023-06-19'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 19/06/2023 Burning world -->
 
 Lately I feel way more stressed. As if constantly I see everything burning in front of my eyes. The only times I feel somewhat ok, is during solitary walks, a breath of fresh air, a period of nothing asking/requiring attention.
 

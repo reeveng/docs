@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Make it make sense
 publishedOnDate: '2023-06-17'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 17/06/2023 Make it make sense -->
 
 I try to be present as much as possible, but sometimes, the past catches up. Every so often, you get buried under 100m of dirt and feel like you are unable to breath. As if time has folded in on itself, merging past, present and future into an inescapable labyrinth.
 

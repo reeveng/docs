@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Understanding
 publishedOnDate: '2023-06-07'
-# editedOnDate: '2024-02-17'
-teaser: text
-description: text
+teaser: Since I was 12-13 years old, I have thought at least once about dying every day...
+description: Explore the journey of navigating through persistent feelings of not wanting to be alive, beginning in adolescence and continuing into adulthood. Discover the challenges of suppressing emotions and the quest to reconnect with them. Gain insight into the complexities of depression, dispelling common misconceptions and highlighting the often hidden nature of this pervasive mood disorder.
 ---
-<!-- ## 07/06/23 Understanding -->
 
 Since I was 12-13 years old, I have thought at least once about suicide every day. Which is probably the most constant thing that I've actively/passively been doing. Nothing in my life has been as constant as this weird abstract feeling of not wanting to be alive. Why is it so prevalent?
 

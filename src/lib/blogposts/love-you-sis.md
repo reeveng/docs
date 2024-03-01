@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Love you sis
 publishedOnDate: '2023-07-31'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 31/07/2023 love you sis -->
 
 > I put my heart and my all in my art, I'm alternate
 > All of them are the same, it's harder to tell 'em apart some days

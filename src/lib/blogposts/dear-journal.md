@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Dear journal
 publishedOnDate: '2023-08-09'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 09/08/2023 Dear journal -->
 
 Dear journal,
 
