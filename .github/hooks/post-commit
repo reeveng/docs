@@ -5,6 +5,8 @@ folder_path="src/lib/blogposts"
 # Get list of newly added files
 added_files=$(git diff-tree --name-only --diff-filter=A -r HEAD)
 
+echo "$added_files"
+
 # Loop through each newly added file
 for file in $added_files; do
     # Check if the file is in the specified folder
