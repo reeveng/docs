@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Explanation of depression
 publishedOnDate: '2023-09-12'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 12/09/2023 Explanation of depression -->
 
 Today I came across [this post on reddit about depression asking: "How would you describe depression to someone who's never had it?"](https://www.reddit.com/r/AskReddit/comments/16g6lfe/how_would_you_describe_depression_to_someone_whos/). Most relatable post ever, especially these 2 comments:
 

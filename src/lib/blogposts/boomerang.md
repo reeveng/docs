@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Boomerang
 publishedOnDate: '2023-07-06'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-## 06/07/2023 Boomerang
 
 Depression is like a boomerang, it always comes back and hits you when you least expect it.
 

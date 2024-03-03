@@ -72,7 +72,7 @@
 			disabled={canNotLikeThisPost}
 		>
 			<span aria-hidden="true">❤️ {likes}</span>
-			<span class="sr-only">{likes} people liked this blogpost</span>
+			<span class="sr-only">{likes} people liked this blog post</span>
 		</button>
 	</form>
 </article>

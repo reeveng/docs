@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Not giving a fuck
 publishedOnDate: '2023-08-21'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 21/08/2023 Not giving a fuck -->
 
 Some days aren't like others. Wake up, feel like not giving a fuck.
 

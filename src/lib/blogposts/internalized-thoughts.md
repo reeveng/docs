@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Internalized thoughts
 publishedOnDate: '2023-06-14'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 14/06/2023 Internalized thoughts -->
 
 This image represents to a certain degree how I feel that people look at me and how I look at others.
 

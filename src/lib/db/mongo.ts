@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 
 const client = new MongoClient(MONGO_URL);
 
-export const BLOGPOST = "blogpost"
+export const BLOG_POST = "blogPost"
 export const NOTIFY = "notify"
 
 // connect to the database

@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Suicide scale
 publishedOnDate: '2023-06-13'
-# editedOnDate: '2024-02-17'
-teaser: text
-description: text
+teaser: Where do you fit on the scale?
+description: Ever pondered your level of commitment to something? This amusing scale offers a perspective on the depths of involvement. See where you and others stack up!
 ---
-<!-- ## 13/06/2023 Suicide scale -->
 
 Yesterday evening, I saw this funny representation of how far into suicide you are.
 

@@ -1,12 +1,9 @@
 ---
-id: 0
 title: No end in sight
 publishedOnDate: '2023-06-04'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 04/06/23 - No end in sight -->
 
 I don't see how I could get rid of this. When it will go away. How it can go away.
 

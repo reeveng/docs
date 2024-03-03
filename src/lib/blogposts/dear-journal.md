@@ -1,12 +1,9 @@
 ---
-id: 0
 title: Dear journal
 publishedOnDate: '2023-08-09'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-<!-- ## 09/08/2023 Dear journal -->
 
 Dear journal,
 
@@ -24,7 +21,7 @@ Recently it was wifey's and I's 7 year relationship anniversary, yes, about to b
 Never expected anything like this, but she's so cute and shit, yk? Without her, there wouldn't be a me, that much I am sure of.
 What is this mysterious invisible pull she has on me? How does she manage to pull me back in every time?
 Writing this whilst she's asleep, I don't think she knows the extend of her influence on my life.
-My empty meaningless life. The only meaningfull thing is her, her smile, just all of her.
+My empty meaningless life. The only meaningful thing is her, her smile, just all of her.
 
 ... The best thing that ever happened to me...
 

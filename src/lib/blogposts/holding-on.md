@@ -1,13 +1,9 @@
 ---
-id: 0
 title: Holding on (for now)
 publishedOnDate: '2023-06-29'
-# editedOnDate: '2024-02-17'
 teaser: text
 description: text
 ---
-
-<!-- ## 29/06/2023 Holding on (for now) -->
 
 Still think about suicide daily, but currently not truly considering it.
 
