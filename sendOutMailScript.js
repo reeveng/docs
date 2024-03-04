@@ -17,7 +17,7 @@ const dbName = process.env.MONGO_DB_NAME;
 const collectionName = process.env.COLLECTION_NOTIFY;
 
 async function main() {
-    const client = new MongoClient(MONGO_URL);
+    const client = new MongoClient(process.env.MONGO_URL);
 
     try {
         // Connect to the MongoDB server
