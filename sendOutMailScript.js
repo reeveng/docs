@@ -7,9 +7,6 @@ const folderPath = "src/lib/blogposts";
 const addedFiles = execSync("git diff-tree --name-only --diff-filter=A -r HEAD").toString().split('\n');
 console.log(addedFiles)
 
-// MongoDB connection URL
-const url = process.env.MONGODB_URL;
-
 // MongoDB database name
 const dbName = process.env.MONGO_DB_NAME;
 
