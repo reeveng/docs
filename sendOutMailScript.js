@@ -17,7 +17,7 @@ const dbName = process.env.MONGO_DB_NAME;
 const collectionName = process.env.COLLECTION_NOTIFY;
 
 async function main() {
-    const client = new MongoClient(url);
+    const client = new MongoClient(MONGO_URL);
 
     try {
         // Connect to the MongoDB server
@@ -25,6 +25,7 @@ async function main() {
 
         // Loop through each newly added file
         for (const file of addedFiles) {
+            console.log(file)
             // Check if the file is in the specified folder
             if (file.startsWith(folderPath)) {
                 console.log("Newly added file:", file);
