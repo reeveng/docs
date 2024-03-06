@@ -6,7 +6,6 @@ import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
 
-
 dotenv.config();
 
 const folderPath = "src/lib/blogPosts";
@@ -27,13 +26,17 @@ function readHtmlFile(filePath) {
     return fs.readFileSync(filePath, 'utf8');
 }
 
-// function convertFilePathToUrl(filePath) {
-//     const baseUrl = 'https://baseurl/blog/';
+function convertFilePathToUrl(filePath) {
+    const baseUrl = 'https://juicemitapfelndrin.vercel.app/blog/';
 
-//     const fileName = path.basename(filePath, '.md');
+    const fileName = path.basename(filePath, '.md');
 
-//     return baseUrl + fileName;
-// }
+    return baseUrl + fileName;
+}
+
+function unsubscribeUrl() {
+    return "https://juicemitapfelndrin.vercel.app/blog/up-to-date"
+}
 
 // Function to send email notification
 async function sendEmailNotification(emailAddresses, file) {
@@ -45,18 +48,14 @@ async function sendEmailNotification(emailAddresses, file) {
         }
     });
 
-    console.log("hi")
-    console.log(convertFilePathToUrl(file))
-
-
     const frontMatterInfoFromFile = getFrontmatterFromFile(file);
     const { title, publishedOnDate, teaser, description } = frontMatterInfoFromFile;
 
-    console.log(frontMatterInfoFromFile);
-
     let htmlContent = readHtmlFile('emailNotifyTemplate.html');
 
-    Object.entries({ ...frontMatterInfoFromFile, url: convertFilePathToUrl(file) }).forEach(([key, value]) => {
+    const extendedInfoFromFile = { ...frontMatterInfoFromFile, url: convertFilePathToUrl(file), unsubscribeUrl: unsubscribeUrl() }
+
+    Object.entries(extendedInfoFromFile).forEach(([key, value]) => {
         const regex = new RegExp(`{{${key}}}`, 'gi');
         htmlContent = htmlContent.replace(regex, value);
     });
@@ -64,7 +63,7 @@ async function sendEmailNotification(emailAddresses, file) {
     const mailOptions = {
         from: process.env.EMAIL_USER,
         subject: `J MAD posted: ${title}`,
-        bcc: emailAddresses.join(','),
+        bcc: emailAddresses,
         html: htmlContent,
         attachments: [{
             filename: 'mstile-144x144.png',
@@ -73,8 +72,7 @@ async function sendEmailNotification(emailAddresses, file) {
         }]
     };
 
-
-    // await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptions);
 }
 
 async function main() {
@@ -86,7 +84,7 @@ async function main() {
         const addedFiles = getAddedFiles();
 
         for (const file of addedFiles) {
-            if (file.startsWith(folderPath)) {
+            if (file.startsWith(folderPath) && file.endsWith(".md")) {
                 console.log("Newly added file:", file);
 
                 const collection = client.db(process.env.MONGO_DB_NAME).collection(process.env.COLLECTION_NOTIFY);

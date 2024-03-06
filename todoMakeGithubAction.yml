@@ -1,0 +1,31 @@
+name: Email Notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Execute script
+      run: node sendOutMailScript.js
+      env:
+        EMAIL_USER: ${{ secrets.EMAIL_USER }}
+        EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+        MONGO_URL: ${{ secrets.MONGO_URL }}
+        MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
+        COLLECTION_NOTIFY: ${{ secrets.COLLECTION_NOTIFY }}
