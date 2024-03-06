@@ -19,7 +19,8 @@ export async function load(event: {
 
     try {
         post = await import(`../../../lib/blogPosts/${params.slug}.md`);
-    } catch {
+    } catch (err) {
+        console.error(err)
         error(404, {
             message: "Couldn't find a blog post with this url",
             description: `The specific blog post you were looking for doesn't exist on <a href="${event.url.href}" class="link">this URL</a>. Would you like to go

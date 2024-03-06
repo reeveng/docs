@@ -13,7 +13,8 @@ export const actions = {
 					{ $inc: { amount: 1 } }, // Increment amount field by 1
 					{ upsert: true } // Create new if not found
 				);
-		} catch {
+		} catch (error) {
+			console.error(error)
 			return { success: false };
 		}
 
@@ -32,7 +33,8 @@ export async function load(event: { params: { slug: string } }) {
 		return {
 			amount: currentOpenedBlogPost?.amount ?? 0
 		};
-	} catch {
+	} catch (error) {
+		console.error(error)
 		return {
 			amount: 0
 		};

@@ -1,58 +1,107 @@
 import { execSync } from 'child_process';
 import { MongoClient } from 'mongodb';
+import dotenv from 'dotenv';
+import nodemailer from 'nodemailer';
+import matter from 'gray-matter';
+import fs from 'fs';
+import path from 'path';
 
-const folderPath = "src/lib/blogposts";
 
-// Get list of newly added files
-const addedFiles = execSync("git diff-tree --name-only --diff-filter=A -r HEAD").toString().split('\n');
-console.log({ addedFiles })
+dotenv.config();
 
-const dbName = process.env.MONGO_DB_NAME;
-const dbUrl = process.env.MONGO_URL
-const collectionName = process.env.COLLECTION_NOTIFY;
+const folderPath = "src/lib/blogPosts";
 
-console.log({ collectionName, dbUrl, dbName })
+// Function to retrieve newly added files
+function getAddedFiles() {
+    return execSync("git diff-tree --name-only --diff-filter=A -r HEAD").toString().split('\n');
+}
+
+// Function to read and parse frontmatter from a file
+function getFrontmatterFromFile(file) {
+    const content = fs.readFileSync(file, 'utf8');
+    const { data } = matter(content);
+    return data;
+}
+
+function readHtmlFile(filePath) {
+    return fs.readFileSync(filePath, 'utf8');
+}
+
+// function convertFilePathToUrl(filePath) {
+//     const baseUrl = 'https://baseurl/blog/';
+
+//     const fileName = path.basename(filePath, '.md');
+
+//     return baseUrl + fileName;
+// }
+
+// Function to send email notification
+async function sendEmailNotification(emailAddresses, file) {
+    const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS
+        }
+    });
+
+    console.log("hi")
+    console.log(convertFilePathToUrl(file))
+
+
+    const frontMatterInfoFromFile = getFrontmatterFromFile(file);
+    const { title, publishedOnDate, teaser, description } = frontMatterInfoFromFile;
+
+    console.log(frontMatterInfoFromFile);
+
+    let htmlContent = readHtmlFile('emailNotifyTemplate.html');
+
+    Object.entries({ ...frontMatterInfoFromFile, url: convertFilePathToUrl(file) }).forEach(([key, value]) => {
+        const regex = new RegExp(`{{${key}}}`, 'gi');
+        htmlContent = htmlContent.replace(regex, value);
+    });
+
+    const mailOptions = {
+        from: process.env.EMAIL_USER,
+        subject: `J MAD posted: ${title}`,
+        bcc: emailAddresses.join(','),
+        html: htmlContent,
+        attachments: [{
+            filename: 'mstile-144x144.png',
+            path: 'static/mstile-144x144.png',
+            cid: 'unique@jmad' //same cid value as in the html img src
+        }]
+    };
+
+
+    // await transporter.sendMail(mailOptions);
+}
 
 async function main() {
-    const client = new MongoClient(dbUrl);
+    const client = new MongoClient(process.env.MONGO_URL);
 
     try {
-        // Connect to the MongoDB server
         await client.connect();
 
-        // Loop through each newly added file
+        const addedFiles = getAddedFiles();
+
         for (const file of addedFiles) {
-            console.log({ file })
-            // Check if the file is in the specified folder
             if (file.startsWith(folderPath)) {
                 console.log("Newly added file:", file);
 
-                // Execute MongoDB aggregate query
-                const collection = client.db(dbName).collection(collectionName);
-                const result = await collection.find({}, {
-                    $project: {
-                        _id: 0,
-                        emailAddresses: 1
-                    }
-                }).toArray();
-                console.log({ result })
+                const collection = client.db(process.env.MONGO_DB_NAME).collection(process.env.COLLECTION_NOTIFY);
+                const result = await collection.find({}, { $project: { _id: 0, emailAddresses: 1 } }).toArray();
 
-                // Extract email addresses from MongoDB query result
-                // const emailAddresses = result[0].emailAddresses;
+                const emailAddresses = result.map(entry => entry.emailAddress);
 
-                // Send email notification with email addresses in BCC
-                // execSync(`echo "${emailAddresses.join('\n')}" | mail -s "New Blog Post" -b "${emailAddresses.join(',')}" user@example.com`);
+                await sendEmailNotification(emailAddresses, file);
 
-                // // Example extension: Send an email notification
-                // // Replace with your email sending logic
-                // console.log("Sending email notification...");
-                // console.log("New blog post added:", file);
+                console.log("Email notification sent to:", emailAddresses);
             }
         }
     } catch (err) {
         console.error(err);
     } finally {
-        // Close the MongoDB connection
         await client.close();
     }
 }

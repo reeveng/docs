@@ -1,10 +1,10 @@
-import { MONGO_URL, MONGO_DB_NAME, COLLECITON_NOTIFY, COLLECTION_BLOG_POST } from '$env/static/private';
+import { MONGO_URL, MONGO_DB_NAME, COLLECTION_NOTIFY, COLLECTION_BLOG_POST } from '$env/static/private';
 import { MongoClient } from 'mongodb';
 
 const client = new MongoClient(MONGO_URL);
 
 export const BLOG_POST = COLLECTION_BLOG_POST
-export const NOTIFY = COLLECITON_NOTIFY
+export const NOTIFY = COLLECTION_NOTIFY
 
 // connect to the database
 export async function connect(): Promise<void> {
