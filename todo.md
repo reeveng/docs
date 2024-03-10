@@ -1,7 +1,7 @@
 potential todo's per page:
 
 - home
-- blogposts page
+- blog posts page
     - share button
 - blog page
     - tags (not really a fan yet, or should be a separate view, not backed in imo)

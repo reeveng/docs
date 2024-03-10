@@ -1,7 +1,7 @@
 import type { Post } from "$lib/types";
 
 export function assignColorClassToPosts(post: Post, oldestDate: number, newestDate: number): string {
-    const percentageRank = (new Date(post.metadata.publishedOnDate).getTime() - oldestDate) / (newestDate - oldestDate) * 100;
+    const percentageRank = Math.ceil((new Date(post.metadata.publishedOnDate).getTime() - oldestDate) / (newestDate - oldestDate) * 100);
     let colorClass = '';
 
     if (percentageRank <= 1) {

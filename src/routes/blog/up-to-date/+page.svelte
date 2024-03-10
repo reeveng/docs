@@ -24,7 +24,7 @@
 
 	<p>
 		You like what you read?<br />Consider leaving your email to receive updates, I shall only update
-		you in case of new blogposts, unlike all companies on planet earth
+		you in case of new blog posts, unlike all companies on planet earth
 		<img
 			alt=", emote of a guy smoking, he looks like he has seen it all..."
 			src={pointlessEmote}
