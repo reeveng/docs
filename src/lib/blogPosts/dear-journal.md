@@ -3,7 +3,6 @@ title: Dear journal
 publishedOnDate: '2023-08-09'
 teaser: Journaling struggles and the unexpected joys of love.
 description: Explore the dichotomy of expression and vulnerability in the author's introspective journey, peppered with reflections on love's enduring influence.
-
 ---
 
 Dear journal,

@@ -3,7 +3,6 @@ title: Boomerang
 publishedOnDate: '2023-07-06'
 teaser: Depression's boomerang always hits unexpectedly
 description: Exploring self-absorption vs. compassion in modern society.
-
 ---
 
 Depression is like a boomerang, it always comes back and hits you when you least expect it.
