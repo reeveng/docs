@@ -1,8 +1,8 @@
 ---
 title: Internalized thoughts
 publishedOnDate: '2023-06-14'
-teaser: text
-description: text
+teaser: Cloudy glass
+description: Explore the challenge of understanding and supporting those with depression through a poignant analogy of cloudy glass.
 ---
 
 This image represents to a certain degree how I feel that people look at me and how I look at others.

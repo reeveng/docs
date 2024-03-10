@@ -1,8 +1,8 @@
 ---
 title: Make it make sense
 publishedOnDate: '2023-06-17'
-teaser: text
-description: text
+teaser: Escapism allure
+description: Diving into the depths of existential dread and the allure of temporary relief, questioning the essence of living versus escaping.
 ---
 
 I try to be present as much as possible, but sometimes, the past catches up. Every so often, you get buried under 100m of dirt and feel like you are unable to breath. As if time has folded in on itself, merging past, present and future into an inescapable labyrinth.

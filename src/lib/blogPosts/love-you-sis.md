@@ -1,8 +1,8 @@
 ---
 title: Love you sis
 publishedOnDate: '2023-07-31'
-teaser: text
-description: text
+teaser: Unkept promises
+description: Exploring the weight of unkept promises and the lingering ache of loss.
 ---
 
 > I put my heart and my all in my art, I'm alternate

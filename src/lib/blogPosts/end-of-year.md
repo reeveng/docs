@@ -1,8 +1,8 @@
 ---
 title: End of year
 publishedOnDate: '2023-12-30'
-teaser: text
-description: text
+teaser: Existential struggles
+description: Reflecting on existential crises and shared struggles of a generation.
 ---
 
 It's been though lately, at least internally. Marathon left, marathon right, look at me not being able to sleep a night.

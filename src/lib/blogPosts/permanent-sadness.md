@@ -1,8 +1,8 @@
 ---
 title: Permanent sadness
 publishedOnDate: '2023-07-24'
-teaser: text
-description: text
+teaser: Navigating life
+description: Exploring the Rollercoaster of Emotions and the Search for Peace.
 ---
 
 Been a while since I wrote in here (or at least 2 weeks). Its not like anything has changed.

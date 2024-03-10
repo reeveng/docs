@@ -2,7 +2,7 @@
 title: Everlasting sadness
 publishedOnDate: '2023-06-01'
 teaser: Common advice from people without depression...
-description: text
+description: Navigating the labyrinth of depression's grip on life's peculiarities.
 ---
 
 Often I get told that I have no right to be depressed, because I have a fairly decently paying job, a wife, a family that loves/supports me, ... . The life some people wished they had, I guess. That however doesn't help to get rid of this everlasting/omnipresent feeling. Whatever I do, this weird feeling follows me, eats away any other feeling. Its like falling into a pit, deeper and deeper -> day by day, with no end in sight. Like one of the nightmares I had when I was younger: I'd wake up, be in my bed, but my bedroom had no walls, it was a freestanding platform with a bed in the corner, surrounded by void on all sides, the only way to escape the platform was by jumping of it, falling into the endless void, till I got looped back to the bed and woke up again, and again, always on repeat, for night on end.

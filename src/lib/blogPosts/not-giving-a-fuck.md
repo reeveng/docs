@@ -1,8 +1,8 @@
 ---
 title: Not giving a fuck
 publishedOnDate: '2023-08-21'
-teaser: text
-description: text
+teaser: Life lows
+description: Exploring the depths of despair and the search for meaning amidst the darkness.
 ---
 
 Some days aren't like others. Wake up, feel like not giving a fuck.

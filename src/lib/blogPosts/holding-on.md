@@ -1,8 +1,8 @@
 ---
 title: Holding on (for now)
 publishedOnDate: '2023-06-29'
-teaser: text
-description: text
+teaser: Postponed
+description: Exploring moments of despair, resilience, and small victories amidst the shadows of dark thoughts. Discover the path to finding solace and the courage to keep going.
 ---
 
 Still think about suicide daily, but currently not truly considering it.

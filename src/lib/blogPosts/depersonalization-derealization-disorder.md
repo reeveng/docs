@@ -1,8 +1,8 @@
 ---
 title: Depersonalization-Derealization Disorder (DPDR)
 publishedOnDate: '2023-08-28'
-teaser: text
-description: text
+teaser: What is DPDR?
+description: Discover the unsettling world of DPDR and how it blurs the lines between reality and imagination.
 ---
 
 My older bro mentioned DPDR to me the other day, and I got all curious and started digging into it. Turns out, DPDR is this kinda weird mental thing that messes with how you feel about yourself and the world. Like, you might feel like you're sort of floating through life, watching yourself from the outside.

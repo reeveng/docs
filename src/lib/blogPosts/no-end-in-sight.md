@@ -1,8 +1,8 @@
 ---
 title: No end in sight
 publishedOnDate: '2023-06-04'
-teaser: text
-description: text
+teaser: Stalked by an unseen presence
+description: Exploring the inescapable grip of persistent thoughts.
 ---
 
 I don't see how I could get rid of this. When it will go away. How it can go away.

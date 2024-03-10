@@ -1,8 +1,9 @@
 ---
 title: Dear journal
 publishedOnDate: '2023-08-09'
-teaser: text
-description: text
+teaser: Journaling struggles and the unexpected joys of love.
+description: Explore the dichotomy of expression and vulnerability in the author's introspective journey, peppered with reflections on love's enduring influence.
+
 ---
 
 Dear journal,
@@ -25,6 +26,8 @@ My empty meaningless life. The only meaningful thing is her, her smile, just all
 
 ... The best thing that ever happened to me...
 
+```text
 Writing here is always a clash between the desire to express oneself and the fear of vulnerability.
+```
 
 Well enough of me writing this story, I am the author of it, you end here.

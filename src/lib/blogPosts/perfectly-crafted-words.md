@@ -1,8 +1,8 @@
 ---
 title: Perfectly crafted words
 publishedOnDate: '2023-08-29'
-teaser: text
-description: text
+teaser: Emotional complexities in music
+description: Explores human emotions through song lyrics, touching on depression and the struggle to find joy in once-beloved activities.
 ---
 
 Ereyesterday, I heard this song for the first time. I was looking for new music and going through artists their albums, when I landed this gem:

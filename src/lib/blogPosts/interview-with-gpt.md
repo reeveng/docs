@@ -1,8 +1,8 @@
 ---
 title: Interview with GPT
 publishedOnDate: '2023-09-03'
-teaser: text
-description: text
+teaser: Self discovery throughout time
+description: Candid narrative on battling depression, navigating trauma, and seeking solace.
 ---
 
 ## Can you share your personal journey with depression, including when you first noticed its symptoms and how it has evolved over time?
