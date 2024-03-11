@@ -48,3 +48,6 @@ jobs:
           MONGO_URL: ${{ secrets.MONGO_URL }}
           MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
           COLLECTION_NOTIFY: ${{ secrets.COLLECTION_NOTIFY }}
+
+      - name: Print Email User
+        run: echo $EMAIL_USER && echo ${{ secrets.EMAIL_USER }}
