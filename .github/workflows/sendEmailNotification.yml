@@ -13,6 +13,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: create env file
+        run: |
+          touch .env
+          echo "EMAIL_USER=${EMAIL_USER}" >> env.txt
+          echo "EMAIL_PASS=${EMAIL_PASS}" >> env.txt
+          echo "MONGO_URL=${MONGO_URL}" >> env.txt
+          echo "MONGO_DB_NAME=${MONGO_DB_NAME}" >> env.txt
+          echo "COLLECTION_NOTIFY=${COLLECTION_NOTIFY}" >> env.txt
+
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
@@ -42,12 +51,3 @@ jobs:
 
       - name: Execute script
         run: pnpm sendMail
-        env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-          MONGO_URL: ${{ secrets.MONGO_URL }}
-          MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
-          COLLECTION_NOTIFY: ${{ secrets.COLLECTION_NOTIFY }}
-
-      - name: Print Email User
-        run: echo "email user ${{ secrets.EMAIL_USER }}"
