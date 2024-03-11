@@ -15,12 +15,11 @@ jobs:
 
       - name: create env file
         run: |
-          touch .env
-          echo "EMAIL_USER=${EMAIL_USER}" >> env.txt
-          echo "EMAIL_PASS=${EMAIL_PASS}" >> env.txt
-          echo "MONGO_URL=${MONGO_URL}" >> env.txt
-          echo "MONGO_DB_NAME=${MONGO_DB_NAME}" >> env.txt
-          echo "COLLECTION_NOTIFY=${COLLECTION_NOTIFY}" >> env.txt
+          echo "EMAIL_USER=${{ secrets.EMAIL_USER }}" >> .env
+          echo "EMAIL_PASS=${{ secrets.EMAIL_PASS }}" >> .env
+          echo "MONGO_URL=${{ secrets.MONGO_URL }}" >> .env
+          echo "MONGO_DB_NAME=${{ secrets.MONGO_DB_NAME }}" >> .env
+          echo "COLLECTION_NOTIFY=${{ secrets.COLLECTION_NOTIFY }}" >> .env
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
