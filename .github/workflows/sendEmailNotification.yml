@@ -21,6 +21,12 @@ jobs:
           echo "MONGO_URL=${MONGO_URL}" >> env.txt
           echo "MONGO_DB_NAME=${MONGO_DB_NAME}" >> env.txt
           echo "COLLECTION_NOTIFY=${COLLECTION_NOTIFY}" >> env.txt
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          MONGO_URL: ${{ secrets.MONGO_URL }}
+          MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
+          COLLECTION_NOTIFY: ${{ secrets.COLLECTION_NOTIFY }}
 
       - name: Install Node.js
         uses: actions/setup-node@v4
