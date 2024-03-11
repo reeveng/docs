@@ -27,6 +27,9 @@ jobs:
           MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
           COLLECTION_NOTIFY: ${{ secrets.COLLECTION_NOTIFY }}
 
+      - name: create env file
+        run: cat .env
+
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
