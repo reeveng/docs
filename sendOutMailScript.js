@@ -72,7 +72,9 @@ async function sendEmailNotification(emailAddresses, file) {
         }]
     };
 
-    await transporter.sendMail(mailOptions);
+    if (process.env.MONGO_DB_NAME == "production") {
+        await transporter.sendMail(mailOptions);
+    }
 }
 
 async function main() {
