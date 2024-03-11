@@ -41,7 +41,7 @@ jobs:
         run: pnpm install
 
       - name: Execute script
-        run: node sendOutMailScript.js
+        run: pnpm sendMail
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
