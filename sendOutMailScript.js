@@ -6,6 +6,8 @@ import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
 
+console.log("start script")
+
 dotenv.config();
 
 const folderPath = "src/lib/blogPosts";
@@ -80,10 +82,15 @@ async function sendEmailNotification(emailAddresses, file) {
 async function main() {
     const client = new MongoClient(process.env.MONGO_URL);
 
+    console.log("enter main")
+
+    const addedFiles = getAddedFiles();
+
+    console.log("added files:", addedFiles)
+
     try {
         await client.connect();
 
-        const addedFiles = getAddedFiles();
 
         for (const file of addedFiles) {
             if (file.startsWith(folderPath) && file.endsWith(".md")) {
@@ -104,6 +111,11 @@ async function main() {
     } finally {
         await client.close();
     }
+
+    console.log("exit main")
 }
 
-main();
+
+await main();
+
+console.log("end script")
