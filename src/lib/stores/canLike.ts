@@ -7,9 +7,9 @@ let storedCanLike = browser && localStorage.getItem(CAN_LIKE);
 const canLike = writable<string[]>(storedCanLike ? JSON.parse(storedCanLike) : []);
 
 canLike.subscribe((value: string[]) => {
-    if (browser) {
-        localStorage.setItem(CAN_LIKE, JSON.stringify(value));
-    }
+	if (browser) {
+		localStorage.setItem(CAN_LIKE, JSON.stringify(value));
+	}
 });
 
 export default canLike;

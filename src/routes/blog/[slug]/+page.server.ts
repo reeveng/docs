@@ -14,7 +14,7 @@ export const actions = {
 					{ upsert: true } // Create new if not found
 				);
 		} catch (error) {
-			console.error(error)
+			console.error(error);
 			return { success: false };
 		}
 
@@ -34,7 +34,7 @@ export async function load(event: { params: { slug: string } }) {
 			amount: currentOpenedBlogPost?.amount ?? 0
 		};
 	} catch (error) {
-		console.error(error)
+		console.error(error);
 		return {
 			amount: 0
 		};

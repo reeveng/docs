@@ -1,10 +1,11 @@
 ---
 title: Why do I even bother?
 publishedOnDate: '2023-05-30'
-editedOnDate: "2024-02-25"
+editedOnDate: '2024-02-25'
 teaser: My inspiration for writing blog posts...
 description: Feeling lost, alone, and disconnected? You're not alone. Many struggle with a sense of emptiness and despair, wondering if there's anything worth living for. It's a common feeling, and it's okay to feel this way. In essence, this reflection speaks to the universal human experience of longing for authenticity and connection in a world that often feels cold and indifferent.
 ---
+
 What is there to live for? Everyone is screwed from the start. The politicians are against the people, the people are against their peers.
 
 Even in daily life, everyone is so cold. Like no one cares about what'd happen. If I'd jump off a building or in front of a train, people would stare and go back to work. We are all a bunch of pussies, sheep, emotionless beings. There is nothing of beauty to find in most humans, just cold stares as soon as you get near to them.

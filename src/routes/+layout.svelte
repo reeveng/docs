@@ -12,7 +12,7 @@
 >
 	<Header></Header>
 
-	<main class="mx-auto box-border flex w-full max-w-5xl flex-col p-4 flex-1">
+	<main class="mx-auto box-border flex w-full max-w-5xl flex-1 flex-col p-4">
 		<slot />
 	</main>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: You are not alone
 publishedOnDate: '2023-06-05'
-teaser: More empathy needed 
+teaser: More empathy needed
 description: A reflection on the urge to aid others, even amidst personal struggles. You're not alone, I am out here! We can go through it together.
 ---
 
