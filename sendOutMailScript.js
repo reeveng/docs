@@ -74,9 +74,7 @@ async function sendEmailNotification(emailAddresses, file) {
         }]
     };
 
-    if (process.env.MONGO_DB_NAME == "production") {
-        await transporter.sendMail(mailOptions);
-    }
+    await transporter.sendMail(mailOptions);
 }
 
 async function main() {
@@ -103,7 +101,7 @@ async function main() {
 
                 await sendEmailNotification(emailAddresses, file);
 
-                console.log("Email notification sent to:", emailAddresses);
+                console.log("Email notification sent to all subscribed individuals");
             }
         }
     } catch (err) {
