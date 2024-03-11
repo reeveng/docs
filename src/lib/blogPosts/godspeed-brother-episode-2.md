@@ -1,6 +1,6 @@
 ---
 title: Losing a loved one, ep. 2
-publishedOnDate: '2024-02-17'
+publishedOnDate: '2024-03-10'
 teaser: My brother recently died ...
 description: Reflecting on priorities amidst personal loss and website updates. Hope you like the website brother!
 ---
