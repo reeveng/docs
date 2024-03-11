@@ -50,7 +50,4 @@ jobs:
           COLLECTION_NOTIFY: ${{ secrets.COLLECTION_NOTIFY }}
 
       - name: Print Email User
-        run: "Email User: $EMAIL_USER"
-        
-      - name: Print Email User
-        run: echo ${{ secrets.EMAIL_USER }}
+        run: echo "email user ${{ secrets.EMAIL_USER }}"
