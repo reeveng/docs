@@ -13,7 +13,9 @@ export const actions = {
 		const word3 = data.get('word3');
 
 		const validateInput = [word1, word2, word3].map(word => word ? word.toString() : '').filter(word => Boolean((word)) && word && typeof word === "string").map(word => word.toLowerCase().trim()
-		)
+		).filter(word => /^[a-z]+$/.test(word))
+
+		console.log(validateInput)
 
 		const words = Array.from(new Set(
 			validateInput
@@ -23,7 +25,7 @@ export const actions = {
 			return {
 				type: TYPES.add,
 				success: false,
-				messages: ["Can't submit an empty input field or duplicates."]
+				messages: ["Can't submit an empty input field or duplicates, should only submit words (containing A-Za-z)."]
 			};
 		}
 
