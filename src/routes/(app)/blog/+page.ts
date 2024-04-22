@@ -2,8 +2,8 @@ import { isPost } from '$lib/typeGuards';
 import type { PostLink } from '$lib/types';
 
 export const load: () => Promise<{ posts: PostLink[] }> = async () => {
-	const fileTypes = '../../lib/blogPosts/*.md';
-	const posts = import.meta.glob('../../lib/blogPosts/*.md');
+	const fileTypes = '../../../lib/blogPosts/*.md';
+	const posts = import.meta.glob('../../../lib/blogPosts/*.md');
 
 	const postEntries = Object.entries(posts);
 

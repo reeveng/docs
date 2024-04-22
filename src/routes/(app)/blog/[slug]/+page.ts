@@ -18,7 +18,7 @@ export async function load(event: {
 	let post;
 
 	try {
-		post = await import(`../../../lib/blogPosts/${params.slug}.md`);
+		post = await import(`../../../../lib/blogPosts/${params.slug}.md`);
 	} catch (err) {
 		console.error(err);
 		error(404, {

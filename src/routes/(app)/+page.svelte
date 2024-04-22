@@ -1,13 +1,13 @@
 <script lang="ts">
-	import Youtube from '../lib/images/brands/youtube.svelte';
-	import Gmail from '../lib/images/brands/gmail.svelte';
-	import Patreon from '../lib/images/brands/patreon.svelte';
-	import Github from '../lib/images/brands/github.svelte';
-	import Twitch from '../lib/images/brands/twitch.svelte';
-	import Discord from '../lib/images/brands/discord.svelte';
-	import Dribbble from '../lib/images/brands/dribbble.svelte';
-	import Pexels from '../lib/images/brands/pexels.svelte';
-	import OnlyFans from '../lib/images/brands/onlyfans.svelte';
+	import Youtube from '$lib/images/brands/youtube.svelte';
+	import Gmail from '$lib/images/brands/gmail.svelte';
+	import Patreon from '$lib/images/brands/patreon.svelte';
+	import Github from '$lib/images/brands/github.svelte';
+	import Twitch from '$lib/images/brands/twitch.svelte';
+	import Discord from '$lib/images/brands/discord.svelte';
+	import Dribbble from '$lib/images/brands/dribbble.svelte';
+	import Pexels from '$lib/images/brands/pexels.svelte';
+	import OnlyFans from '$lib/images/brands/onlyfans.svelte';
 	import Highlight from 'svelte-highlight';
 	import typescript from 'svelte-highlight/languages/typescript';
 	import githubTheme from 'svelte-highlight/styles/github-dark-dimmed';

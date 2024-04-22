@@ -201,7 +201,7 @@ But every ounce you give to someone else, doesn't go to your own problems and is
 
 Might have gone too abstract here.
 
-![xdd](./images/xdd.webp)
+![xdd](../src/lib/blogPosts/images/xdd.webp)
 
 But think I'll try to dig a little deeper again, try to unearth some dark past items.
 Probably in another post, cus don't feel like going into it right now :P .
