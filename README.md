@@ -40,3 +40,4 @@ You can preview the production build with `npm run preview`.
 ## To do's
 
 add these types to the pages, [link](https://ogp.me/#types)
+
