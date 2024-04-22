@@ -1,4 +1,4 @@
-import { WORDS, getDB } from '$lib/db/mongo';
+import { WORDS, WORDS_SUBMISSIONS, getDB } from '$lib/db/mongo';
 import type { Actions } from './$types';
 
 const TYPES = {
@@ -40,6 +40,11 @@ export const actions = {
 				);
 			}));
 
+			await db.collection(WORDS_SUBMISSIONS).insertOne(
+				{
+					words
+				}
+			);
 
 
 		} catch (error) {
