@@ -35,7 +35,15 @@
 			Describe me:
 		</h1>
 
-		<p class="my-2">Please add 3 words to describe me (letters only "a-zA-Z"):</p>
+		<div class="my-2">
+			<p>Please add 3 words to describe me (letters only "a-zA-Z"):</p>
+			<a
+				class="sub text-blue-500 underline"
+				href="https://apple.stackexchange.com/questions/364909/technical-reason-why-safari-9-doesnt-support-modern-sites"
+			>
+				<sub>There are known issues with safari, please use a different web browser.</sub>
+			</a>
+		</div>
 
 		<form class="flex max-w-md flex-col gap-2" method="POST" action="?/add">
 			<input
