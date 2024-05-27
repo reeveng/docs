@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import d3Cloud from 'd3-cloud';
-	import { descending, rollups } from 'd3-array';
+	import { descending } from 'd3-array';
 
 	export let wordsWithAmount: { word: string; amount: number }[] = [];
 	export let height = 600;

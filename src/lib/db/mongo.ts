@@ -4,7 +4,7 @@ import {
 	COLLECTION_NOTIFY,
 	COLLECTION_WORDS,
 	COLLECTION_BLOG_POST,
-	COLLECTION_WORDS_SUBMISSIONS,
+	COLLECTION_WORDS_SUBMISSIONS
 } from '$env/static/private';
 import { MongoClient } from 'mongodb';
 
@@ -13,7 +13,7 @@ const client = new MongoClient(MONGO_URL);
 export const BLOG_POST = COLLECTION_BLOG_POST;
 export const NOTIFY = COLLECTION_NOTIFY;
 export const WORDS = COLLECTION_WORDS;
-export const WORDS_SUBMISSIONS = COLLECTION_WORDS_SUBMISSIONS
+export const WORDS_SUBMISSIONS = COLLECTION_WORDS_SUBMISSIONS;
 
 // connect to the database
 export async function connect(): Promise<void> {

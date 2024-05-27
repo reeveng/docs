@@ -79,7 +79,7 @@
 			<button class="btn btn-neutral" type="submit">Add my words!</button>
 		</form>
 
-		{#if form && formSuccess === false}
+		{#if form && form.messages && formSuccess === false}
 			<div role="alert" class="alert alert-error dark:bg-red-700 dark:text-white">
 				<ul class="list-disc px-4">
 					{#each form.messages as message}

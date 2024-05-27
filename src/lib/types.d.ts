@@ -14,7 +14,7 @@ export type Post = {
 export type PostLink = {
 	slug: string;
 	post: Post;
-}
+};
 
 export type Likes = {
 	amount: number;

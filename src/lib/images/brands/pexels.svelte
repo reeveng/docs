@@ -4,7 +4,7 @@
 	/></svg
 >
 
-<style>
+<style lang="postcss">
 	svg {
 		@apply dark:fill-stone-200;
 	}

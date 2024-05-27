@@ -9,7 +9,7 @@
 	const searchParams = new URLSearchParams($page.url.search);
 	const email = searchParams.get('email') ?? '';
 
-	const formSuccess: Boolean = Boolean(form?.success);
+	const formSuccess: boolean = Boolean(form?.success);
 	const formType: string | undefined = form?.type;
 </script>
 

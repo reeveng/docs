@@ -21,13 +21,14 @@
 				{$page.error?.message ?? 'Not found'}
 			</h1>
 
-			<p>
-				{@html $page.error?.description ??
-					`Whatever you were looking for doesn't exist on this URL. Would you like to go
-                to the <a class="link text-fuchsia-600 dark:text-fuchsia-400" href={URLS.ROOT}
-                    >home page</a
-                >?`}
-			</p>
+			{#if $page.error?.description}
+				<p>{@html $page.error.description}</p>
+			{:else}
+				<p>
+					Whatever you were looking for doesn't exist on this URL. Would you like to go to the
+					<a class="link text-fuchsia-600 dark:text-fuchsia-400" href={URLS.ROOT}>home page</a>?
+				</p>
+			{/if}
 		</div>
 	</div>
 </div>

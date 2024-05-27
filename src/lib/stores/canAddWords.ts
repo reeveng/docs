@@ -2,7 +2,7 @@ import { browser } from '$app/environment';
 import { CAN_ADD_WORDS } from '$lib/utils/constants/localStorage';
 import { writable } from 'svelte/store';
 
-let storedCanAddWords = browser && localStorage.getItem(CAN_ADD_WORDS);
+const storedCanAddWords = browser && localStorage.getItem(CAN_ADD_WORDS);
 
 const canAddWords = writable(storedCanAddWords ? JSON.parse(storedCanAddWords) : true);
 

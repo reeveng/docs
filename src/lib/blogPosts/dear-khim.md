@@ -12,12 +12,12 @@ I showed her the video and [filmed her pure reaction](https://www.youtube.com/sh
 Had several "segments" (thing I wanted to say), that I left out of my video since they wouldn't have contributed any further to what I wanted to say. Am actually not sure why I wanted to write about it.
 
 The main reason I made the video at the time, was due to me wanting to write a letter to wifey. However, I just couldn't, I tried, tried, and tried again, but nothing came even close to the things I wanted to convey or tell her.
-I felt it hard to tell the things I felt, because from my perspective, she already knows all of those things, and I try to remind her daily of all the reasons why she's my favorite person. So writing a letter directly was impossible. I could only get about *2 sentences deep*, which I later deleted.
+I felt it hard to tell the things I felt, because from my perspective, she already knows all of those things, and I try to remind her daily of all the reasons why she's my favorite person. So writing a letter directly was impossible. I could only get about _2 sentences deep_, which I later deleted.
 
 Had to find a different angle, a different approach.
 
 Could write to her mom and dad, but honestly, since we can't really directly communicate that didn't make much sense (they can't speak english, and lets not mention my lack of fluency in Thai).
-I thought and I thought, until I eventually came up with the (in my opinion) perfect person to write to, *her future husband*. Not that I like or dislike the guy, just haven't really met him, yk. But he likes/loves Khim so at least we'd have that in common.
+I thought and I thought, until I eventually came up with the (in my opinion) perfect person to write to, _her future husband_. Not that I like or dislike the guy, just haven't really met him, yk. But he likes/loves Khim so at least we'd have that in common.
 It was also way easier to direct to him, what I wanted to convey to Khim.
 
 Not really sure if I actually got the message across.

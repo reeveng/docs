@@ -17,7 +17,7 @@
 		description
 	} = data;
 
-	const formSuccess: Boolean = Boolean(form?.success);
+	const formSuccess: boolean = Boolean(form?.success);
 
 	// liked the post
 	if (formSuccess) {
@@ -86,7 +86,7 @@
 	</p>
 </footer>
 
-<style>
+<style lang="postcss">
 	/* TODO: add a triangle shape under the button you lazy bum :) */
 	button[title]:hover::after {
 		@apply absolute left-0 right-0 top-0 mt-[-2rem] w-full rounded-full bg-white p-1 text-slate-800 dark:bg-slate-800 dark:text-neutral-200;

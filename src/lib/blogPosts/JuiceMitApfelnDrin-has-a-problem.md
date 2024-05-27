@@ -16,137 +16,138 @@ This is somewhat the conversation we had, he wrote things down to keep track of 
 
 ```markdown
 - I have a problem, I have a wife
-    - I know you’re partly joking, but is there anything small you don’t like about your relationship with your wife?
-        - nah, she's next to me, if anything there are many things i don't like about myself
+  - I know you’re partly joking, but is there anything small you don’t like about your relationship with your wife?
+    - nah, she's next to me, if anything there are many things i don't like about myself
 - What don’t you like about yourself?
-    - kind of feeling depressed ngl
-    - What do you think you’re depressed about?
-        - according to others nothing is wrong with my life
-        - think it might have something to do with some traumatic experiences i have gone thru
-            - What traumatic experiences?
-                - i was kidnapped by my mother and we lived for 2.5yrs hidden in a foreign country
-                - What country were you from and where were you kidnapped to?
-                    - I'm not german actually, i am from belgium, we went first undercover in belgium, then to germany, then to croatia, where we spend most of our time, got caught when trying to cross the border to bosnia herz
-                - What was she trying to escape?
-                    - supposedly my father, but she has some mental issues to say the least, and just lost custody of all of her kids
-                        - Did you have a bad relationship with your father or was it good? Neutral? Just one day “we’re leaving”.
-                            - wasn't particularly bad, but got manipulated into believing it was bad, she tried to fuck up our relationship, made me steal from his house, garden etc
-                - she eventually got convicted for 2yrs to jail and psychologists said she's a literal psychopath
-                    - Do you forgive her?
-                        - would never forgive her, ngl, she still stalks me to this day, ruins my life and makes me feels unsafe wherever i go
-                            - And you block her wherever possible, right?
-                                - yes
-                            - Do you know if there’s anything else you can do to prevent her from having any contact with you?
-                                - i tried to go to police, but unless there is actual contact i can't get a no contact order by court
-                                - asked already, until last year there was one in place
-                                - but as soon as it ran out she started stalking again
-                                    - Can you temporarily unblock her to gather proof of contact?
-                                        - would have to think about that for a bit
+  - kind of feeling depressed ngl
+  - What do you think you’re depressed about?
+    - according to others nothing is wrong with my life
+    - think it might have something to do with some traumatic experiences i have gone thru
+      - What traumatic experiences?
+        - i was kidnapped by my mother and we lived for 2.5yrs hidden in a foreign country
+        - What country were you from and where were you kidnapped to?
+          - I'm not german actually, i am from belgium, we went first undercover in belgium, then to germany, then to croatia, where we spend most of our time, got caught when trying to cross the border to bosnia herz
+        - What was she trying to escape?
+          - supposedly my father, but she has some mental issues to say the least, and just lost custody of all of her kids
+            - Did you have a bad relationship with your father or was it good? Neutral? Just one day “we’re leaving”.
+              - wasn't particularly bad, but got manipulated into believing it was bad, she tried to fuck up our relationship, made me steal from his house, garden etc
+        - she eventually got convicted for 2yrs to jail and psychologists said she's a literal psychopath
+          - Do you forgive her?
+            - would never forgive her, ngl, she still stalks me to this day, ruins my life and makes me feels unsafe wherever i go
+              - And you block her wherever possible, right?
+                - yes
+              - Do you know if there’s anything else you can do to prevent her from having any contact with you?
+                - i tried to go to police, but unless there is actual contact i can't get a no contact order by court
+                - asked already, until last year there was one in place
+                - but as soon as it ran out she started stalking again
+                  - Can you temporarily unblock her to gather proof of contact?
+                    - would have to think about that for a bit
 - Hypothetical: if you got the no-contact order and it lasted forever, would you still feel weight or depression from your mother’s existence?
-    - i wouldn't be, since i know she has tried to hire killers in the past for my dad
-    - she'd be capable to do the same for me
+  - i wouldn't be, since i know she has tried to hire killers in the past for my dad
+  - she'd be capable to do the same for me
 - If she died, would you still feel depressed?
-    - a huge thing would be lifted from my back
-    - Would you still be depressed about anything else?
-        - might still feel depressed, unsure, difficult to imagine
+  - a huge thing would be lifted from my back
+  - Would you still be depressed about anything else?
+    - might still feel depressed, unsure, difficult to imagine
 - ik it might seem like i make it up, most people wouldn't believe it when i told the story 100 times
 - Do you feel guilt about having a “picture perfect life” but feeling depressed anyway?
-    - kind of ye
-        - You’re not obligated to feel guilty about any of this.
+  - kind of ye
+    - You’re not obligated to feel guilty about any of this.
 - Can you name things other than your mother that you are unsatisfied about?
-    - like truly unsatisfied or just could be better?
-        - anything that could possibly be better
-            - i mean, technically everything could be better
-            - Start with the thing you think will have the most impact
-                - actually finishing projects
-                - What kinds of projects are you starting and not finishing?
-                    - wanted to make something like "Leetcode" with chat (streaming project), i am working with my older brother on creating an ad, trying to make videos, a a magazine, and then 50+ personal coding projects
-                    - the only coding project i ever finished was one for my brother who recently died
-                    - Why do you typically give up on a project? What kinds of things do you tell yourself?
-                        - i don't give up on them, still working on all of them at different times
-                    - What’s wrong with this approach? It seems fine to me. What are you not happy about with this approach?
-                        - i just feel like i never get to finishing things
-                            - The really easy solution: find the easiest project to finish, and focus entirely on that one for like a week.
-                                - yes
-            - Name something else that could be better
-                - job
-                    - What’s your current job?
-                        - frontend dev
-                        - How much more money (percentage) do you think you can make with your current skill-set?
-                            - banks or such i could probably make like 5k after taxes a month, but would be boring af
-                                - As a bank software engineer?
-                                    - yes
-                            - What are you currently making?
-                                - 3k a month
-                            - What would you do with the extra money?
-                                - uhmn, nothing much, save up
-                                - i am soonish going to move to thailand
-                                    - in 2-3 years
-                                    - That +2k will make a big difference moving forward, then.
-                                    - i would get nearly the same amount of pay there as i get here  some company already made me an offer
-                                        - Why not take the offer now?
-                                            - because my lil bro is still studying, and he'd be the sole person living here in belgium, responsible thing is helping him eventho it is not the easiest
-            - Name something else that could be better
-                - should exercise more
-                - weight or muscle tone or… what else do you want to improve?
-                    - neither, just not in shape, or not the shape i wanna be in or used to be
-                    - What shape did you used to be in?
-                        - i used to be in pretty well physical shape
-                - Do you currently have a gym membership?
-                    - i don't and is too expensive imo
-                        - How much is the cheapest gym near you?
-                            - 10 eur a month
-                                - What machines are in this gym?
-                                    - just some dumbbells, idk
-                    - generally i don't like exercising in the gym
-                        - Where did you used to exercise?
-                            - i used to do martial arts
-                            - was nr 1 in belgium
-                            - Can you do that same martial art again?
-                                - i could, but no practice places close to me
-                                - so time wise would be difficult to combine it with everything else in life
-                        - would rather go run in a park that have exercising equipment there for free
-                            - Can you schedule a time everyday to do this for like an hour?
-                                - not really, then i would have to let go of other things
-                                    - So you have no time
-                - How important is it to you to be really in shape?
-                    - fairly
-                    - i could, but sometimes in life you need to relax too nah?
-            - Name something else that could be better
-                - That’s about it
+
+  - like truly unsatisfied or just could be better?
+    - anything that could possibly be better
+      - i mean, technically everything could be better
+      - Start with the thing you think will have the most impact
+        - actually finishing projects
+        - What kinds of projects are you starting and not finishing?
+          - wanted to make something like "Leetcode" with chat (streaming project), i am working with my older brother on creating an ad, trying to make videos, a a magazine, and then 50+ personal coding projects
+          - the only coding project i ever finished was one for my brother who recently died
+          - Why do you typically give up on a project? What kinds of things do you tell yourself?
+            - i don't give up on them, still working on all of them at different times
+          - What’s wrong with this approach? It seems fine to me. What are you not happy about with this approach?
+            - i just feel like i never get to finishing things
+              - The really easy solution: find the easiest project to finish, and focus entirely on that one for like a week.
+                - yes
+      - Name something else that could be better
+        - job
+          - What’s your current job?
+            - frontend dev
+            - How much more money (percentage) do you think you can make with your current skill-set?
+              - banks or such i could probably make like 5k after taxes a month, but would be boring af
+                - As a bank software engineer?
+                  - yes
+              - What are you currently making?
+                - 3k a month
+              - What would you do with the extra money?
+                - uhmn, nothing much, save up
+                - i am soonish going to move to thailand
+                  - in 2-3 years
+                  - That +2k will make a big difference moving forward, then.
+                  - i would get nearly the same amount of pay there as i get here  some company already made me an offer
+                    - Why not take the offer now?
+                      - because my lil bro is still studying, and he'd be the sole person living here in belgium, responsible thing is helping him eventho it is not the easiest
+      - Name something else that could be better
+        - should exercise more
+        - weight or muscle tone or… what else do you want to improve?
+          - neither, just not in shape, or not the shape i wanna be in or used to be
+          - What shape did you used to be in?
+            - i used to be in pretty well physical shape
+        - Do you currently have a gym membership?
+          - i don't and is too expensive imo
+            - How much is the cheapest gym near you?
+              - 10 eur a month
+                - What machines are in this gym?
+                  - just some dumbbells, idk
+          - generally i don't like exercising in the gym
+            - Where did you used to exercise?
+              - i used to do martial arts
+              - was nr 1 in belgium
+              - Can you do that same martial art again?
+                - i could, but no practice places close to me
+                - so time wise would be difficult to combine it with everything else in life
+            - would rather go run in a park that have exercising equipment there for free
+              - Can you schedule a time everyday to do this for like an hour?
+                - not really, then i would have to let go of other things
+                  - So you have no time
+        - How important is it to you to be really in shape?
+          - fairly
+          - i could, but sometimes in life you need to relax too nah?
+      - Name something else that could be better
+        - That’s about it
 
 - Your responsibility to your lil bro
-    - How old is he?
-        - he's 21 or so, gonna finish college soonish, when he finishes im out and he might come with me
-            - What is he going to do in thailand? Does he have employment opps?
-                - no clue
-            - He should be independent. Why is this not the case? Why do you need to stick around?
-                - I don't just feel a moral obligation
-                - he also got kidnapped, went thru a lot together
-                - feel like i'd be leaving him behind
-    - Suppose you move to Thailand now, and video call him every day so he doesn’t feel lonely. Is this a workable situation?
-        - in theory, yes
-        - just know he'd be sad / might get depressed himself, which i wouldn't want
-            - but you being there has no direct impact on this - if he’s sad, he’s sad with or without you
+  - How old is he?
+    - he's 21 or so, gonna finish college soonish, when he finishes im out and he might come with me
+      - What is he going to do in thailand? Does he have employment opps?
+        - no clue
+      - He should be independent. Why is this not the case? Why do you need to stick around?
+        - I don't just feel a moral obligation
+        - he also got kidnapped, went thru a lot together
+        - feel like i'd be leaving him behind
+  - Suppose you move to Thailand now, and video call him every day so he doesn’t feel lonely. Is this a workable situation?
+    - in theory, yes
+    - just know he'd be sad / might get depressed himself, which i wouldn't want
+      - but you being there has no direct impact on this - if he’s sad, he’s sad with or without you
 - just sticking here for a bit longer, since it doesn't change my situation fundamentally if im there or here
-    - Your entire quality of life, on the same salary but in Thailand, will be exponentially better
-    - You don’t have to work for a bank.
+  - Your entire quality of life, on the same salary but in Thailand, will be exponentially better
+  - You don’t have to work for a bank.
 - It’s useful for your brother to get used to not having you in very close proximity as a safety crutch. You can still video call.
 
 ACTION PLAN
 
 - Find a way to extend the no-contact order against your mother
-    - Consider unblocking to bait her into contact so you can prove to police that she tried to contact.
+  - Consider unblocking to bait her into contact so you can prove to police that she tried to contact.
 - Talk to a real therapist
-    - i used to, but the therapist didn't really work out, should find another one, but since my father was actually one, we kind of worked through most things i'd say, altho i am still feeling depressed, so might have to find another one
+  - i used to, but the therapist didn't really work out, should find another one, but since my father was actually one, we kind of worked through most things i'd say, altho i am still feeling depressed, so might have to find another one
 - Finish a single project
-    - find the easiest project to finish, and focus entirely on that one for like a week.
-    - Use checklists if you have problems getting things done
+  - find the easiest project to finish, and focus entirely on that one for like a week.
+  - Use checklists if you have problems getting things done
 - Find out a LOT more about this company and what they’re up to.
-    - If you review the offer and it’s legit, move to Thailand.
-    - If not, get the 5k bank job
+  - If you review the offer and it’s legit, move to Thailand.
+  - If not, get the 5k bank job
 - Exercise
-    - Work on this later, focus on the other stuff now.
+  - Work on this later, focus on the other stuff now.
 ```
 
 ---
